@@ -18,6 +18,9 @@
     margin-top: 5px;
     opacity: .5;
 }
+.photochka {
+    border-radius: 40px;
+}
 .pechikmini{
     height: auto;
 }
