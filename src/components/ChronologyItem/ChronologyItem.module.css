@@ -1,0 +1,23 @@
+.divchik{
+    width: calc(50% - 20px);
+    background-color: #181818;
+    border-radius: 40px;
+    
+    padding: 40px 0px;
+}
+.pechik, .photochka, .spanchik, .pechikmini{
+    width: calc( 100% - 80px);
+    margin: 0 auto;
+    display:block;
+}
+.pechik{
+    height: 200px;
+}
+
+.spanchik {
+    margin-top: 5px;
+    opacity: .5;
+}
+.pechikmini{
+    height: auto;
+}

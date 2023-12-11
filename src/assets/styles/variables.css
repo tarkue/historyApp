@@ -1,0 +1,29 @@
+:root{
+    --border-radius: 40px;
+    --h1-font-size:108px;
+    --h2-font-size:86px;
+    --h3-font-size:36px;
+    --p-font-size:24px;
+    --color-red:#FF2A2A;
+    --color-blue:#205FFF;
+}
+h1{
+    font-size:var(--h1-font-size);
+    font-weight: 400;
+  }
+  h2{
+    font-size:var(--h2-font-size);
+    font-weight: 400;
+  }
+  h3{
+    font-size:var(--h3-font-size);
+    font-weight: 400;
+  }
+  p{
+    font-size:var(--p-font-size);
+    font-weight: 300;
+  }
+  h1, h2, h3, p{
+    line-height: 100%;
+  }
+  

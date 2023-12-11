@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.header ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+.header ul li a{
+    text-decoration: none;
+    opacity: 0.5;
+    transition: 0.3s opacity;
+}
+.header ul li a:hover{
+    opacity: 1;
+}
+

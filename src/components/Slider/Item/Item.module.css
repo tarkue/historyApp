@@ -1,0 +1,35 @@
+.Item {
+    color: #000;
+
+    display: flex;
+    gap: 40px;
+
+    width: 100%;
+}
+
+.Image {
+    object-fit: none;
+    width: 330px;
+    height: 500px;
+
+    border-radius: 20px;
+}
+
+.Tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    background-color: var(--color);
+
+    height: 80px;
+    width: 160px;
+}
+
+.Tag p {
+    color: #fff;
+}
+.Text {
+    margin-top: 40px;
+}

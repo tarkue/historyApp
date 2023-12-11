@@ -1,0 +1,15 @@
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding:0 10px;
+    height: 28px;
+    border-radius: 4px;
+    background: var(--color);
+
+    position: -webkit-sticky;
+    position: sticky;
+    
+    top: 60px;
+}

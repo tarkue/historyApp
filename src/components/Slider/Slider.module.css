@@ -1,0 +1,79 @@
+.personal{
+    background-color: #FFF;
+
+    width: 100%;
+    border-radius: var(--border-radius);
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 0px;
+}
+.Header {
+    display: flex;
+    justify-content: space-between;
+
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+.personal p, .personal h2 {
+    color: #000;
+}
+
+.personal h2 {
+
+}
+
+.ContentWrappper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 80px;
+    width: calc(100% - 80px);
+    margin: 0 auto;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80px;
+    height: 80px;
+
+    border: 4px solid #000;
+    border-radius: 20px;
+
+    transition: 0.3s all;
+    cursor: pointer;
+}
+.Button:hover {
+    background: #000;
+}
+.Button:hover svg path {
+    fill: #FFF;
+}
+
+.ButtonsList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.noActive {
+    cursor: default;
+    opacity: .5;
+}
+.noActive:hover {
+    background: #FFF;
+}
+.noActive:hover svg path {
+    fill: #000;
+}
+
+.Rotate {
+    transform: rotate(180deg);
+}

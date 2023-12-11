@@ -1,0 +1,23 @@
+.Chronology{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.content, .notmainkraft{
+    width: 49%;
+    text-align: justify;
+    margin-left:40px;
+}
+
+.notmainkraft{
+    height:400px;
+    border-radius: var(--border-radius);
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 60px;
+    background-size: contain;
+    object-fit: cover;
+}
